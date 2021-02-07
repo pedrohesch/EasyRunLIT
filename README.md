@@ -69,10 +69,10 @@ Copiar o arquivo pretrained_lm_demo2.py para a pasta ..\lit-nlp\Lib\site-package
 Para executar o programa:
 
 ```bash
-streamlit rum easyrulit.py
+streamlit rum easyrulit.py
 ```
 
-### Relatório
+## Relatório
 
 Para relatório completo, inclusive manual de usuario, ler o documento do link abaixo
 
