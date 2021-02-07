@@ -6,7 +6,6 @@ Criado em 07 de fev 2021
 @version: 1.0
 
 """
-# pacote que prepara o arquivo de texto carregado no LIT
 
 from lit_nlp.api import dataset as lit_dataset
 from lit_nlp.api import types as lit_types

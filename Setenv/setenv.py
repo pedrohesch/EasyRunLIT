@@ -1,4 +1,10 @@
-#classe de preparação do ambiemte, escolhendo e copiando os arquivos e pacotes necessários
+"""
+Classe de preparação do ambiemte, escolhendo e copiando os arquivos
+Criado em 07 de fev 2021
+@author: Pedro Schneider
+@version: 1.0
+
+"""
 
 # importando os pacotes necessários
 import streamlit as st

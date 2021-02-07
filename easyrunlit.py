@@ -48,7 +48,7 @@ def main():
 		set_environment.copy_class_to_lit(classfile)
 		st.write ('Rodando...')
 		st.markdown('_checar **url** na janena de comando_.')
-		#subprocess.call('python -m lit_nlp.examples.pretrained_lm_demo2 --models=bert-base-uncased --port=5432')
+		subprocess.call('python -m lit_nlp.examples.pretrained_lm_demo2 --models=bert-base-uncased --port=5432')
 
 
 if __name__ == '__main__':
