@@ -92,7 +92,7 @@ Tela de seleção do Dataset no LIT , marcar opção conforme imagem para seleç
 
 Para relatório completo, inclusive manual de usuario, ler o documento do link abaixo
 
-* [INF2102_Projeto_Final_de_Programacao_Pedro.pdf](https://github.com/pedrohesch/EasyRunLIT/Docs/INF2102_Projeto_Final_de_Programacao_Pedro.pdf)
+* [INF2102_Projeto_Final_de_Programacao_Pedro.pdf](https://github.com/pedrohesch/EasyRunLIT/blob/main/Docs/INF2102_Projeto_Final_de_Programacao_Pedro.pdf)
 
 
 
