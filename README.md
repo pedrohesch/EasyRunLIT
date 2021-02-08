@@ -21,6 +21,7 @@ Sugestão de crianção de ambiente virtual
 ```bash
 python -m venv lit-nlp
 ```
+obs: ativar o ambiente virtual após a criação do mesmo, para os seguintes passos de instalação.
 
 ### Instalando o LIT
 
@@ -43,12 +44,17 @@ pip install streamlit
 ```
 ├── requirements                            - Especicifa as dependências de bibliotecas.
 |
+├── easyrunlit.py                           - Arquivo de execução do programa.
+|
 ├── Demo_Datas                              - Arquivo texto para teste/demonstração.
 |
 ├── Docs                                    - Relatório e manual completo do projeto.
 |
-├── Sentenv                                 - Configuração de ambiente
-│   ├── sentenv    .py                      - Pacote para selecão e copia de arquinos no servidor
+├── Setenv                                  - Configuração de ambiente
+│   ├── setenv.py                           - Pacote para selecão e copia de arquinos no servidor
+|
+├── Examples                                - Exemplos de casos.
+│   ├── pretrained_lm_demo2.py              - Pacote de exemplo a ser colocado no LIT.
 |
 ├── Tests                                   - Repositório de testes.
 │   └── test_flattext.py                    - Arquivo de testes das funções do pacote flattext.
@@ -56,24 +62,37 @@ pip install streamlit
 |
 ├── Userclasses                             - Repositório com as classses de preparação e carga de dados.
 │   └── flattext.py                         - Pacote para preparação do arquivo de texto carregado no LIT
+|
+├── Img                                     - Repositório de imagens para documentações.
+
 
 ```
 
 ### Instalando o EasyRunLIT 
 
-Copiar/baixar a estrutura deste repositório para a raiz do ambiente virtual criado: lit-nlp
-Copiar o arquivo pretrained_lm_demo2.py para a pasta ..\lit-nlp\Lib\site-packages\lit_nlp\examples\ pretrained_lm_demo2.py
+1. Copiar/baixar a estrutura deste repositório para a raiz do ambiente virtual criado: lit-nlp
+2. Copiar o arquivo pretrained_lm_demo2.py para a pasta ..\lit-nlp\Lib\site-packages\lit_nlp\examples\ pretrained_lm_demo2.py
 
 ## Execução
 
 Para executar o programa:
 
 ```bash
-streamlit rum easyrulit.py
+streamlit rum easyrunlit.py
 ```
+Tela do Easyrunlit
+
+! (Img/img01.png)
+
+Tela de seleção do Dataset no LIT , marcar opção conforme imagem para seleção de dataset prórpio/carregado.
+
+!((Img/img02.png)
 
 ## Relatório
 
 Para relatório completo, inclusive manual de usuario, ler o documento do link abaixo
+
+* [INF2102_Projeto_Final_de_Programacao_Pedro.pdf](https://github.com/pedrohesch/EasyRunLIT/Docs/INF2102_Projeto_Final_de_Programacao_Pedro.pdf)
+
 
 
