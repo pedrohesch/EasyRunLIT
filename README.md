@@ -82,11 +82,11 @@ streamlit rum easyrunlit.py
 ```
 Tela do Easyrunlit
 
-! (Img/img01.png)
+! (Img/img01.PNG)
 
 Tela de seleção do Dataset no LIT , marcar opção conforme imagem para seleção de dataset prórpio/carregado.
 
-!((Img/img02.png)
+! (Img/img02.PNG)
 
 ## Relatório
 
