@@ -59,6 +59,7 @@ pip install streamlit
 ├── Tests                                   - Repositório de testes.
 │   └── test_flattext.py                    - Arquivo de testes das funções do pacote flattext.
 │   └── test_setenv.py                      - Arquivo de testes das funções do pacote setenv.
+│   └── report.html                         - Relatório dos testes rodados.
 |
 ├── Userclasses                             - Repositório com as classses de preparação e carga de dados.
 │   └── flattext.py                         - Pacote para preparação do arquivo de texto carregado no LIT
